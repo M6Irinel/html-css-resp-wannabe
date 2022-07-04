@@ -1,0 +1,36 @@
+/* MEDIA QUERY */
+
+/* VERSIONE TABLET */
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 767px;
+    }
+}
+
+
+/* VERSIONE MOBILE */
+@media screen and (max-width: 479px) {
+    .container {
+        max-width: 375px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col {
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+
+    body {
+        background: linear-gradient(to bottom, #232946 0%, #232946 50%, #222222 51%, #222222 100%);
+    }
+}
+
+/* BONUS */
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+    .container {
+        max-width: 100%;
+    }
+}
