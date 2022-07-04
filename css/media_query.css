@@ -3,7 +3,7 @@
 /* VERSIONE TABLET */
 @media screen and (max-width: 767px) {
     .container {
-        max-width: 767px;
+        max-width: 100%;
     }
 }
 
