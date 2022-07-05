@@ -21,6 +21,7 @@
     .col {
         flex-basis: 100%;
         flex-grow: 1;
+        margin-bottom: 60px;
     }
 
     body {
